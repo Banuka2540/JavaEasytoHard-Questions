@@ -1,22 +1,21 @@
-package JavaEncapsulations;
+package JavaEncapsulations.Exercise2;
 
 public class person {
     private String name;
-    private int age;
+    private int age ;
 
     void setName(String name){
         this.name = name;
-    }
-
-    void getName(){
-        System.out.println("Your name is : " + name);
     }
 
     void setAge(int age){
         this.age = age;
     }
 
-    void getAge(){
-        System.out.println("your age is : "+ age );
+    void getName(){
+        System.out.println("your name is : " + name);
     }
+
+    void getAge(){
+        System.out.println( "your age is : " + age);    }
 }
